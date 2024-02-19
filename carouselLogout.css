@@ -1,0 +1,148 @@
+.item-select-slid-visit {
+    background: #BDD5E9!important;
+}
+
+.container-carousel-space{
+	margin-top:25px;
+}
+
+.bg-logout-color{
+	background:#e5e5e5;
+}
+
+#slider li {
+
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    z-index: -1;
+    opacity: 0;
+}
+#slider li img{
+	border-radius:10px;
+}
+
+.listslider {
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.listslider li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.listslider li a {
+    background: #E6E6E6;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.item-select-slid {
+    background: #1075BB!important;
+}
+.img-size-carousel{
+	width: 610px;
+	height: 250px;
+}
+
+#loading-lock-dialog{
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	background-color: #000000;
+	opacity: 0.5;
+    filter:alpha(opacity=50); /* works for IE 8. */ 
+    display: block;	
+}
+
+#dialog-lock-content{
+	background-color: white;
+    text-align: center;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    font-size: 24px;    
+    z-index: 15;
+	opacity: 0.98;
+	filter:alpha(opacity=98); /* works for IE 8. */
+	position: fixed;
+	top:50%;
+	left:50%;
+	width:400px;
+	margin-left:-200px; /* Mitad del width */
+	height:200px;
+	margin-top:-100px;	/* Mitad del heght */
+	display: block;
+}
+
+#dialog-lock-image{
+	background: white url("/redir/redir2.0/images/common/icons/loading.gif") no-repeat;
+    background-size: 100% 100%;
+    margin: auto;  
+    height: 40px;
+    width: 40px;  
+}
+
+#dialog-lock-title{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #394457;
+	font-weight: bold;
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+#dialog-lock-text, #dialog-lock-text_1, #dialog-lock-text_2, #dialog-lock-text_3, 
+#dialog-lock-text_4, #dialog-lock-text_5, #dialog-lock-text_4_fix{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #6D6E71;
+	font-weight: regular;
+	margin-bottom: 30px;
+}
+	
+#dialog-close-button{
+	background: white url("/redir/redir2.0/images/common/icons/close-icon-alert.png") no-repeat;
+	cursor: pointer;
+    height: 12px;
+    left: 380px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 12px;  
+}
+
+#dialog-close-button:HOVER{
+	background: white url("/redir/redir2.0/images/common/icons/close.png") no-repeat;
+}
+
+
+@media screen and (max-width: 768px){
+	.shadow-container-carousel{
+    	box-shadow: 0 -6px 10px rgba(255,255,255,.5);
+	}
+	
+	.img-size-carousel{
+		width: 345px;
+	}
+	
+
+}
+
+@media screen and (max-width: 1200px){
+	.img-size-carousel {
+    	width: 393px;
+	}
+}

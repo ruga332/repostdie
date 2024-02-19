@@ -1,0 +1,13 @@
+.header-brand-logo {
+ background: url('loguito.svg') no-repeat;
+ height: 30px;
+ background-size: 108px;
+}
+
+@media screen and (min-width: 768px){
+ .header-brand-logo {
+  background: url('loguitodeskt.svg') no-repeat;
+   height: 36px;
+    background-size: 300px;
+ }
+}
